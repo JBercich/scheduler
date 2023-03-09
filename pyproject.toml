@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scheduler"
+version = "0.1.0"
+description = ""
+authors = ["JBercich <joshbercich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulp = "^2.7.0"
+glpk = "^0.4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
